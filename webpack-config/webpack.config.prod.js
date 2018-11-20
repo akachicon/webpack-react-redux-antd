@@ -30,6 +30,7 @@ module.exports = merge(baseConfig, {
     })
   ],
   optimization: {
+    noEmitOnErrors: false,
     minimize: true,
     minimizer: [
       new MinifyJSPlugin(

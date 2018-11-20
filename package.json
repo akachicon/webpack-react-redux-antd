@@ -2,7 +2,7 @@
   "name": "wp-react-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "browserslist": "Chrome 5",
+  "browserslist": "Chrome 59",
   "main": "index.js",
   "scripts": {
     "build:prod": "cross-env NODE_ENV=production webpack --config \"./webpack-config/webpack.config.prod.js\"",
@@ -56,9 +56,12 @@
     "antd": "^3.10.4",
     "core-js": "^2.5.7",
     "express": "^4.16.4",
+    "moment": "^2.22.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-hot-loader": "^4.3.12",
-    "regenerator-runtime": "^0.12.1"
+    "react-router-dom": "^4.3.1",
+    "regenerator-runtime": "^0.12.1",
+    "uuid": "^3.3.2"
   }
 }

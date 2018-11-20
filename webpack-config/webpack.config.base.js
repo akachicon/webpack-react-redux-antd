@@ -146,7 +146,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       inlineSource: 'runtime',
       template: inProjectSrc(project.html.template),
+      mobile: true,
       appMountId: 'root',
+      title: project.html.title,
       minify: __DEV__ ? false : {
         collapseWhitespace: true,
         removeComments: true,
